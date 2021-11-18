@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/stelsmiss7100"
+        android:id="@+id/banner_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/banner_image" />
+
+    <TextView
+        android:textColor="@color/Gray"
+        android:id="@+id/description_text_view"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
